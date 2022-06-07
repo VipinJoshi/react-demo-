@@ -31,7 +31,7 @@ export default function App() {
         <input id="age" type="number" value={age} onChange={handleAgeChange} />
         <InputFields labelText="Department" type="text" id="department" />
         <InputFields labelText="Salary" type="number" id="salary" />
-        <button type="submit"> Add User</button>
+        <button type="submit"> Add Employee</button>
       </form>
     </div>
   );
